@@ -1,0 +1,270 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo { /* Added logo styling */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav { /* Added nav styling */
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+nav .auth-links { /* Added auth-links styling */
+    display: flex;
+    margin-left: 2rem;
+}
+
+nav .auth-links a { /* Added auth-links a styling */
+    margin-left: 0.5rem;
+}
+
+.hero {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-small {
+    padding: 0.5rem 1rem;
+}
+
+.projects, .freelancers {
+    padding: 3rem 0;
+}
+
+.project-grid, .freelancer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.project-item, .freelancer-item {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    header {
+        background-color: #3498db;
+        color: white;
+        padding: 1rem 0;
+    }
+    
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .logo {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 1rem;
+    }
+    
+    nav .auth-links {
+        display: flex;
+        margin-left: 2rem;
+    }
+    
+    nav .auth-links a {
+        margin-left: 0.5rem;
+    }
+    
+    .hero-modern { /* Modified Hero */
+        background-color: #f8f8f8;
+        padding: 8rem 0;
+        text-align: left;
+    }
+    
+    .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .hero-modern h2 { /* modified hero heading */
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-modern p { /* modified hero paragraph */
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .search-bar { /* modified hero search bar */
+        display: flex;
+    }
+    
+    .search-bar input {
+        flex: 1;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .search-bar button {
+        background-color: #3498db;
+        color: white;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+    
+    .hero {
+        display: none; /* Hide the old hero section */
+    }
+    
+    .btn {
+        background-color: #3498db;
+        color: white;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    .btn-small {
+        padding: 0.5rem 1rem;
+    }
+    
+    .projects, .freelancers {
+        padding: 3rem 0;
+    }
+    
+    .project-grid, .freelancer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+    
+    .project-item, .freelancer-item {
+        border: 1px solid #ddd;
+        padding: 1.5rem;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .project-item h3, .freelancer-item h3 {
+        margin-bottom: 0.5rem;
+    }
+    
+    .budget {
+        display: block;
+        margin-bottom: 1rem;
+        color: #888;
+    }
+    
+    .freelancer-item img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+    }
+}
+
+.project-item h3, .freelancer-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.budget {
+    display: block;
+    margin-bottom: 1rem;
+    color: #888;
+}
+
+.freelancer-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
