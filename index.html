@@ -42,8 +42,10 @@
         .logo {
             font-size: 24px;
             font-weight: bold;
-            color: #1dbf73;
+            color:#4c2438;
             text-decoration: none;
+            text-shadow: black;
+            
         }
         
         .nav-links {
@@ -60,7 +62,7 @@
         }
         
         .nav-links a:hover {
-            color: #1dbf73;
+            color: #520b2d;
         }
         
         .auth-buttons {
@@ -76,15 +78,19 @@
         }
         
         .btn-outline {
-            border: 1px solid #1dbf73;
-            color: #1dbf73;
+            border: 1px solid black;
+            color: #4c2438;
+            box-shadow: 2px 2px 2px black;
+            border-radius: 25px;
             background-color: transparent;
         }
         
         .btn-primary {
-            background-color: #1dbf73;
-            color: white;
-            border: 1px solid #1dbf73;
+            background-color:white;
+            color: black;
+            box-shadow: 2px 2px 4px black;
+            border: 1px solid black;
+            border-radius: 25px;
         }
         
         /* Hero Section */
@@ -93,6 +99,7 @@
             color: white;
             padding: 80px 0;
             position: relative;
+            background-color:#520b2d;
         }
         
         .hero-content {
@@ -136,10 +143,11 @@
             border: 1px solid #ddd;
             border-radius: 4px 0 0 4px;
             outline: none;
+            box-shadow: 2px 2px 2px;
         }
         
         .search-button {
-            background-color: #1dbf73;
+            background-color:lightslategray;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -286,7 +294,7 @@
         .step-number {
             width: 60px;
             height: 60px;
-            background-color: #1dbf73;
+            background-color:#520b2d;
             color: white;
             border-radius: 50%;
             display: flex;
@@ -358,7 +366,7 @@
         .start-section {
             padding: 80px 0;
             text-align: center;
-            background-color: #023a15;
+            background-color: #4c2438;
             color: white;
         }
         
@@ -405,7 +413,7 @@
         }
         
         .footer-links a:hover {
-            color: #1dbf73;
+            color: #520b2d;
         }
         
         .copyright {
@@ -421,8 +429,7 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <a href="#" class="logo">SkillConnect</a>
-                
+                <a href="#" class="logo"><strong>SKILLCONNECT</strong></a>
                 <nav class="nav-links">
                     <a href="#">Explore</a>
                     <a href="#">Become a Seller</a>
@@ -454,27 +461,27 @@
     <!-- Popular Categories -->
     <section class="categories">
         <div class="container">
-            <h2 class="section-title">Popular Categories</h2>
+            <h2 class="section-title"><strong> <u>Popular Categories</u></strong></h2>
             <div class="category-grid">
                 <div class="category-card">
-                    <img src="/api/placeholder/50/50" alt="Graphics & Design" class="category-icon">
+                    <img src="/Assest/des.webp" alt="Graphics & Design" class="category-icon">
                     <span class="category-name">Graphics & Design</span>
                 </div>
                 <div class="category-card">
-                    <img src="/api/placeholder/50/50" alt="Web Development" class="category-icon">
-                    <span class="category-name">Programming & Tech</span>
+                    <img src="/Assest/web.webp" alt="Web Development" class="category-icon">
+                    <span class="category-name"> Programming & Tech</span>
                 </div>
                 <div class="category-card">
-                    <img src="/api/placeholder/50/50" alt="Writing" class="category-icon">
-                    <span class="category-name">Writing & Translation</span>
+                    <img src="/Assest/download.jpg" alt="Writing" class="category-icon">
+                    <span class="category-name"> Writing & Translation</span>
                 </div>
                 <div class="category-card">
-                    <img src="/api/placeholder/50/50" alt="Video & Animation" class="category-icon">
+                    <img src="/Assest/video editing.webp" alt="Video & Animation" class="category-icon">
                     <span class="category-name">Video & Animation</span>
                 </div>
                 <div class="category-card">
-                    <img src="/api/placeholder/50/50" alt="Music & Audio" class="category-icon">
-                    <span class="category-name">Music & Audio</span>
+                    <img src="/Assest/Music Production _ Writing.webp" alt="Music & Audio" class="category-icon">
+                    <span class="category-name"> Music & Audio</span>
                 </div>
             </div>
         </div>
@@ -483,13 +490,13 @@
     <!-- Popular Services -->
     <section class="popular-services">
         <div class="container">
-            <h2 class="section-title">Popular Services</h2>
+            <h2 class="section-title"><Strong><u>Popular Services</u></Strong></h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <img src="/api/placeholder/300/180" alt="Logo Design" class="service-image">
+                    
                     <div class="service-info">
                         <div class="service-seller">
-                            <img src="/api/placeholder/30/30" alt="Seller Avatar" class="seller-avatar">
+                
                             <span class="seller-name">JohnDesigns</span>
                         </div>
                         <h3 class="service-title">I will design a professional logo for your business</h3>
@@ -503,10 +510,8 @@
                 </div>
                 
                 <div class="service-card">
-                    <img src="/api/placeholder/300/180" alt="Web Development" class="service-image">
                     <div class="service-info">
                         <div class="service-seller">
-                            <img src="/api/placeholder/30/30" alt="Seller Avatar" class="seller-avatar">
                             <span class="seller-name">WebPro</span>
                         </div>
                         <h3 class="service-title">I will develop a responsive website for your brand</h3>
@@ -520,10 +525,8 @@
                 </div>
                 
                 <div class="service-card">
-                    <img src="/api/placeholder/300/180" alt="Content Writing" class="service-image">
                     <div class="service-info">
                         <div class="service-seller">
-                            <img src="/api/placeholder/30/30" alt="Seller Avatar" class="seller-avatar">
                             <span class="seller-name">ContentQueen</span>
                         </div>
                         <h3 class="service-title">I will write SEO-optimized content for your blog</h3>
@@ -537,10 +540,10 @@
                 </div>
                 
                 <div class="service-card">
-                    <img src="/api/placeholder/300/180" alt="Video Editing" class="service-image">
+                    
                     <div class="service-info">
                         <div class="service-seller">
-                            <img src="/api/placeholder/30/30" alt="Seller Avatar" class="seller-avatar">
+                    
                             <span class="seller-name">VideoMaster</span>
                         </div>
                         <h3 class="service-title">I will edit your YouTube videos professionally</h3>
@@ -559,7 +562,7 @@
     <!-- How It Works -->
     <section class="how-it-works">
         <div class="container">
-            <h2 class="section-title">How SkillConnect Works</h2>
+            <h2 class="section-title"><u><strong>How SkillConnect Works</strong></u></h2>
             <div class="steps-container">
                 <div class="step-card">
                     <div class="step-number">1</div>
@@ -585,12 +588,12 @@
     <!-- Testimonials -->
     <section class="testimonials">
         <div class="container">
-            <h2 class="section-title">What Our Users Say</h2>
+            <h2 class="section-title"><u><strong>What Our Users Say</strong></u></h2>
             <div class="testimonial-container">
                 <div class="testimonial-card">
                     <p class="testimonial-content">"SkillConnect helped me find the perfect designer for my startup's branding. The process was smooth, and the results exceeded my expectations!"</p>
                     <div class="testimonial-author">
-                        <img src="/api/placeholder/50/50" alt="Author Avatar" class="author-avatar">
+                    
                         <div class="author-details">
                             <span class="author-name">Sarah Johnson</span>
                             <span class="author-title">Startup Founder</span>
@@ -601,7 +604,7 @@
                 <div class="testimonial-card">
                     <p class="testimonial-content">"As a freelancer, SkillConnect has been a game-changer for me. I've been able to connect with clients worldwide and grow my business exponentially."</p>
                     <div class="testimonial-author">
-                        <img src="/api/placeholder/50/50" alt="Author Avatar" class="author-avatar">
+                        
                         <div class="author-details">
                             <span class="author-name">Michael Chen</span>
                             <span class="author-title">Web Developer</span>
@@ -626,7 +629,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>Categories</h3>
+                    <h3> Categories</h3>
                     <div class="footer-links">
                         <a href="#">Graphics & Design</a>
                         <a href="#">Digital Marketing</a>
